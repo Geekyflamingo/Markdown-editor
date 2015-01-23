@@ -1,3 +1,78 @@
+@import url('//fonts.googleapis.com/css?family=Cousine');
+
 html, body {
   margin: 20px;
+}
+
+*,:after,:before{
+  box-sizing: border-box;
+}
+
+.ember-view,body,html{
+  height:100%
+}
+
+html{
+  font-size:1em
+}
+
+body{
+  background-color:#fff;
+  font-family:'Cousine', serif;
+  font-weight:900;
+  line-height:1.45;
+  color:#666
+}
+
+p{
+  margin-bottom:1.3em
+}
+
+h1,h2,h3,h4{
+  margin:1.414em 0 .5em;
+  font-weight:inherit;
+  line-height:1.2
+}
+
+h1{
+  margin-top:0;
+  font-size:1.602em
+}
+
+h2{
+  font-size:1.424em
+}
+
+h3{
+  font-size:1.266em
+}
+
+h4{
+  font-size:1.125em
+}
+
+.font_small,small{
+  font-size:.889em
+}
+
+.sections{
+  height: 50%;
+}
+
+section{
+  width:50%;
+  float:left;
+  height:100%;
+  padding: 20px;
+}
+
+textarea{
+  width: 100%;
+  height: 100%
+}
+
+
+.markdown textarea:focus{
+  outline:0;
+  border:1px solid rgba(000,000,000,.8)
 }

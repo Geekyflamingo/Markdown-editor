@@ -1,3 +1,12 @@
-<h2 id='title'>Welcome to Ember.js</h2>
+<div class = "sections">
+<section class="markdown">
+  <h2>Markdown</h2>
+{{textarea value = markdown placeholder= "Write markdown here" }}
+</section>
+<section class= "output">
+  <h2>HTML</h2>
+  {{showdown-addon markdown}}
+</section>
+</div>
 
 {{outlet}}
